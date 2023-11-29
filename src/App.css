@@ -1,0 +1,41 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  padding: 30px;
+  max-height: 100vh;
+}
+
+.app-content {
+  flex: 1;
+  display: flex;
+}
+
+.card-xl {
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0px 30px 60px rgba(32, 56, 85, 0.15);
+  position: relative;
+}
+
+.card-xl h3 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+.side-bar-right {
+  width: 100%;
+}
+
+.subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #636363;
+}
